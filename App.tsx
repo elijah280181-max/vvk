@@ -62,8 +62,6 @@ const App: React.FC = () => {
 
               <a 
                 href="https://portfolio4-gold-ten.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer" 
                 className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full border border-slate-700 bg-slate-800/50 text-slate-400 hover:text-yellow-400 hover:border-yellow-500/50 transition-all group"
               >
                 <Sun className="w-3 h-3 group-hover:rotate-180 transition-transform duration-500" />
