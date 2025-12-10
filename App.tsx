@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Download, Github, Linkedin, Globe, Mail, Rocket, Cpu } from 'lucide-react';
+import { Download, Github, Linkedin, Globe, Mail, Rocket, Cpu, Sun } from 'lucide-react';
 import { BIO_SUMMARY, PROJECTS, SKILLS, TIMELINE_DATA, SOCIAL_LINKS } from './constants';
 import SkillBadge from './components/SkillBadge';
 import ProjectCard from './components/ProjectCard';
@@ -51,12 +51,24 @@ const App: React.FC = () => {
           </div>
 
           <div className="text-center md:text-left flex-1">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyber-primary/10 text-cyber-primary border border-cyber-primary/20 mb-4">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyber-primary opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-cyber-primary"></span>
-              </span>
-              <span className="text-xs font-mono font-bold tracking-wider">OPEN FOR WORK</span>
+            <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 mb-4">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyber-primary/10 text-cyber-primary border border-cyber-primary/20">
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyber-primary opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-cyber-primary"></span>
+                </span>
+                <span className="text-xs font-mono font-bold tracking-wider">OPEN FOR WORK</span>
+              </div>
+
+              <a 
+                href="https://portfolio4-gold-ten.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer" 
+                className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full border border-slate-700 bg-slate-800/50 text-slate-400 hover:text-yellow-400 hover:border-yellow-500/50 transition-all group"
+              >
+                <Sun className="w-3 h-3 group-hover:rotate-180 transition-transform duration-500" />
+                <span className="text-xs font-mono font-bold tracking-wider">LIGHT VERSION</span>
+              </a>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-extrabold text-white tracking-tight mb-4">
