@@ -34,7 +34,7 @@ export const PROJECTS: Project[] = [
     link: "https://bav.pythonanywhere.com"
   },
   {
-    title: "1C Keras Extension",
+    title: "Neuroconstructor",
     description: "A visual neural network builder for the 1C:Enterprise system. Allowed users to visually create, train, and test models. Award-winning project with a dedicated YouTube tutorial series.",
     tags: ["ML", "Keras", "Enterprise", "Visual Coding"],
     iconName: "network",
