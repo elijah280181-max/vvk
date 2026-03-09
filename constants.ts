@@ -42,6 +42,13 @@ export const PROJECTS: Project[] = [
     secondaryLinks: [
       { platform: "YouTube Channel", url: "https://www.youtube.com/channel/UC58UyUUlaUA_beiyex6BemA/featured", iconName: "youtube" }
     ]
+  },
+  {
+    title: "Business Idea Generator",
+    description: "An AI-powered tool designed to generate innovative business ideas based on specific parameters and market trends.",
+    tags: ["AI", "Idea Generation", "Notion", "Productivity"],
+    iconName: "lightbulb",
+    link: "https://gleaming-rudbeckia-017.notion.site/Estonia-31da85bdbd728085a5c3f3a86251ae9f"
   }
 ];
 
