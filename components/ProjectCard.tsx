@@ -1,6 +1,6 @@
 import React from 'react';
 import { Project } from '../types';
-import { Bot, Leaf, Network, ExternalLink, Youtube, Github, Globe } from 'lucide-react';
+import { Bot, Leaf, Network, ExternalLink, Youtube, Github, Globe, Lightbulb } from 'lucide-react';
 
 interface ProjectCardProps {
   project: Project;
@@ -12,6 +12,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       case 'bot': return <Bot className="w-8 h-8 text-cyber-primary" />;
       case 'leaf': return <Leaf className="w-8 h-8 text-cyber-accent" />;
       case 'network': return <Network className="w-8 h-8 text-cyber-secondary" />;
+      case 'lightbulb': return <Lightbulb className="w-8 h-8 text-yellow-400" />;
       default: return <Bot className="w-8 h-8 text-slate-400" />;
     }
   };
